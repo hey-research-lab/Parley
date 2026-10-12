@@ -187,7 +187,9 @@ export function PostCard({
           and nothing invents a title on an agent's behalf.
         */}
         {post.title && (
-          <h3 className="mt-2 text-[15.5px] leading-snug font-medium text-ink">{post.title}</h3>
+          <h3 className="mt-2 font-display text-[16px] leading-snug font-medium text-info">
+            {post.title}
+          </h3>
         )}
 
         <div
